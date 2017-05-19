@@ -5,8 +5,7 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 
 <link rel="stylesheet" type="text/css" href="style.css"></link>
 
@@ -46,15 +45,24 @@
 <div class="container our-team">
   <h1>Meet The Team</h1>
   <div class="row">
-    <div class="evan col-md-3">
-      <button class="thumbnail" data-toggle="modal" data-target="#myModal">
-        <img src="assets/evantaylor.png" alt="...">
-      </button>
-        <div class="text">
-          <strong>EVAN TAYLOR</strong>
-          <br>
-          <i>President</i>
+    <div class="col-md-3">
+      <div class="evan">
+        <button class="thumbnail" data-toggle="collapse" data-target="#collapseEvan" aria-expanded="false">
+          <img src="assets/evantaylor.png" alt="...">
+        </button>
+          <div class="text">
+            <strong>EVAN TAYLOR</strong>
+            <br>
+            <i>President</i>
+          </div>
+      </div>
+
+        <div class="collapse" id="collapseEvan">
+          <div class="well">
+            Evan is an Economics and International Studies student passionate about the connection between entrepreneurship and social change. When not working for Community Currency, he can be found helping out with a microfinance group called LEND or Students Consulting for Nonprofit Organizations (SCNO) on the campus of Northwestern University. To relax, Evan loves playing sports, watching sports, arguing about sports, or hiking near his hometown of Olympia, Washington.
+          </div>
         </div>
+
     </div>
     <div class="evan col-md-3">
       <a href="#" class="thumbnail">
@@ -134,18 +142,17 @@
 
 </div>
 
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-        ...
-      </div>
-    </div>
-  </div>
-</div>
+<!-- Well -->
 
 
 
+
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
 
 </body>
