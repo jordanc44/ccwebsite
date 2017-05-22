@@ -1,21 +1,26 @@
 <head>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Latest compiled and minified CSS -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+  
 
+  
+  <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css.map">
 
-<link rel="stylesheet" type="text/css" href="style.css"></link>
+  <link rel="stylesheet" type="text/css" href="style.css"></link>
 
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css.map">
 
 </head>
 
-
 <body>
 
+<!-- NAVBAR -->
 <nav class="comm-nav navbar navbar-fixed-top">
   <div class="container-fluid">
     <ul class="nav navbar-nav">
@@ -29,13 +34,14 @@
   </div>
 </nav>
 
+<!-- PAGE HEADER -->
 <div class="page-header">
   <div class="row">
 	   <a class="navbar-brand" href="#">
         <img alt="CommCurrencyLogo" src="assets/new-logo.png">
      </a>
 
-     <a href="https://www.paypal.com/cgi-bin/webscr" target="_blank"><button type="button" class="btn btn-default donate">DONATE</button></a>
+     <a href="https://www.paypal.com/cgi-bin/webscr" target="_blank"><button type="button" class="btn btn-default donate"><strong>DONATE</strong></button></a>
    </div>
    <br>
 
@@ -46,14 +52,7 @@
 
 </div>	
 
-
-<!-- <img class="team-photo" id="team-photo" src="assets/edited1.jpg"> -->
-
-<div class="container">
-  
-
-</div>
-
+<!-- PHOTO CAROUSEL -->
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -86,6 +85,7 @@
   </a>
 </div>
 
+<!-- WHO WE ARE TEXT -->
 <div class="container" id="who-we-are">
   <h2><strong>WHO WE ARE</strong></h2>
   <br>
@@ -93,34 +93,29 @@
   501(c)(3) organization that salvages leftover foreign currency from international travel, re-purposing it to fund local, community-oriented charities. After collecting the currency via receptacles in airports across the country, a third party converts our proceeds, and we distribute them to our deserving partners.</p>
 </div>
 
-
+<!-- MEET THE TEAM -->
 <div class="container our-team" id="our-team">
   <h2><strong>MEET THE TEAM</strong></h2>
   <br>
   <div class="row">
-    <div class="col-md-3">
-      <div class="evan">
-        <button class="thumbnail" data-toggle="collapse" data-target="#collapseEvan" aria-expanded="false">
-          <img src="assets/evantaylor.png" alt="...">
-        </button>
-          <div class="text">
-            <strong>EVAN TAYLOR</strong>
-            <br>
-            <i>President</i>
-          </div>
-      </div>
 
-        <div class="collapse" id="collapseEvan">
-          <div class="well">
-            Evan is an Economics and International Studies student passionate about the connection between entrepreneurship and social change. When not working for Community Currency, he can be found helping out with a microfinance group called LEND or Students Consulting for Nonprofit Organizations (SCNO) on the campus of Northwestern University. To relax, Evan loves playing sports, watching sports, arguing about sports, or hiking near his hometown of Olympia, Washington.
-          </div>
-        </div>
-
-    </div>
     <div class="evan col-md-3">
-      <button class="thumbnail" data-toggle="popover" data-placement="top" data-content="Jackson is from Long Beach, California and is an undergraduate student at Northwestern University. He engages in company research, helping all of the teams accomplish their goals as well as reach out to corporations for potential partnerships. During his free time, Jackson enjoys watching Netflix and cooking. His favorite thing to do is play sports with his friends.">
+      <button class="team-popover thumbnail" data-toggle="popover" data-placement="bottom" data-content="Evan is an Economics and International Studies student passionate about the connection between entrepreneurship and social change. When not working for Community Currency, he can be found helping out with a microfinance group called LEND or Students Consulting for Nonprofit Organizations (SCNO) on the campus of Northwestern University. To relax, Evan loves playing sports, watching sports, arguing about sports, or hiking near his hometown of Olympia, Washington.">
+          <img src="assets/evantaylor.png" alt="...">
+      </button>
+
+      <div class="text">
+          <strong>EVAN TAYLOR</strong>
+          <br>
+          <i>President</i>
+        </div>
+    </div>
+
+    <div class="evan col-md-3">
+      <button class="team-popover thumbnail" data-toggle="popover" data-placement="bottom" data-content="Jackson is from Long Beach, California and is an undergraduate student at Northwestern University. He engages in company research, helping all of the teams accomplish their goals as well as reach out to corporations for potential partnerships. During his free time, Jackson enjoys watching Netflix and cooking. His favorite thing to do is play sports with his friends.">
           <img src="assets/jacksonlehmar.png" alt="...">
-        </button>
+      </button>
+
       <div class="text">
           <strong>JACKSON LEHMAR</strong>
           <br>
@@ -128,9 +123,9 @@
         </div>
     </div>
     <div class="evan col-md-3">
-      <a href="#" class="thumbnail">
-        <img src="assets/jordanclark.png" alt="...">
-      </a>
+      <button class="team-popover thumbnail" data-toggle="popover" data-placement="bottom" data-content="Jordan is from Nottingham, England. He was a participant on the renowned Sutton Trust US Programme and is pursuing a double major in Radio/Tv/Film and Computer Science at Northwestern. Outside of Community Currency, Jordan spends his time operating as the Technical Director for Nine Lives Podcast. He also has a weekly radio show on WNUR and is actively involved in Northwestern University’s Dance Marathon. In his spare time, he enjoys watching soccer, drinking tea and Facetiming his younger siblings back home.">
+          <img src="assets/jordanclark.png" alt="...">
+      </button>
       <div class="text">
           <strong>JORDAN CLARK</strong>
           <br>
@@ -138,22 +133,22 @@
         </div>
     </div>
     <div class="evan col-md-3">
-      <a href="#" class="thumbnail">
-        <img src="assets/justinhennenfent.png" alt="...">
-      </a>
+      <button class="team-popover thumbnail" data-toggle="popover" data-placement="bottom" data-content="Justin is from Barrington, Illinois, a suburb of Chicago. Since coming to Northwestern University, Justin has worked for TAMID consulting group, The entrepreneurship team for one of the school’s largest business groups, and is a member of Delta Tau Delta fraternity. As an economics major, Justin is the secretary of the company. When Justin is not busy with school work, he loves playing basketball.">
+          <img src="assets/justinhennenfent.png" alt="...">
+      </button>
       <div class="text">
           <strong>JUSTIN HENNENFENT</strong>
           <br>
           <i>Secretary</i>
         </div>
     </div>
-</div>
+  </div>
 
-<div class="row">
+  <div class="row">
     <div class="evan col-md-3">
-      <a href="#" class="thumbnail">
-        <img src="assets/meghanharshaw.png" alt="...">
-      </a>
+      <button class="team-popover thumbnail" data-toggle="popover" data-placement="top" data-content="Meghan is a native Texan and Northwestern undergraduate studying Journalism, Legal Studies and Global Health. She admits it’s an odd mix of studies, but she loves exploring and reporting on topics like international women’s health. Outside of academics and her role in Community Currency, Meghan is passionate about comedy and sketch television; she’s always writing screenplays, watching sketches or working on film sets. You can find her working as the 1st Assistant Director of Northwestern Sketch Television or as the Story Director for the Nine Lives Podcast on NU’s campus. If she’s not doing any of the above, she’s probably eating some type of bread or cheese.">
+          <img src="assets/meghanharshaw.png" alt="...">
+      </button>
       <div class="text">
           <strong>MEGHAN HARSHAW</strong>
           <br>
@@ -161,9 +156,9 @@
         </div>
     </div>
     <div class="evan col-md-3">
-      <a href="#" class="thumbnail">
-        <img src="assets/laurenburns.png" alt="...">
-      </a>
+      <button class="team-popover thumbnail" data-toggle="popover" data-placement="top" data-content="Lauren is a Manufacturing and Design Engineering student passionate about both design and humanitarian work.  She is Community Currency’s main product designer as well as a member of Engineers Without Borders, Best Buddies, Alpha Phi Sorority, and an aspiring photographer.  She has worked with both the Rehabilitation Institute of Chicago and Northwestern University as a designer and consultant on engineering projects since starting at Northwestern in 2015.  When all of the above are said and done, she is most likely asleep or talking to her dog.">
+          <img src="assets/laurenburns.png" alt="...">
+      </button>
       <div class="text">
           <strong>LAUREN BURNS</strong>
           <br>
@@ -171,9 +166,9 @@
         </div>
     </div>
     <div class="evan col-md-3">
-      <a href="#" class="thumbnail">
-        <img src="assets/robbiemarkus.png" alt="...">
-      </a>
+      <button class="team-popover thumbnail" data-toggle="popover" data-placement="top" data-content="Robbie is a political science major in his second year at Northwestern. On top of his research-focused role at Community Currency, Robbie currently serves as the assistant sports editor of the Daily Northwestern, Evanston’s only daily newspaper since 1881. In addition, he just finished a summer serving as the only intern for a multi-million dollar prosecutor campaign in his hometown, Columbus, Ohio. When Robbie’s not working, he loves playing tennis, listening to coffeehouse music, and watching his beloved Cleveland sports teams.">
+          <img src="assets/robbiemarkus.png" alt="...">
+      </button>
       <div class="text">
           <strong>ROBBIE MARKUS</strong>
           <br>
@@ -181,22 +176,28 @@
         </div>
     </div>
     <div class="evan col-md-3">
-      <a href="#" class="thumbnail">
-        <img src="assets/zachhennenfent.png" alt="...">
-      </a>
+      <button class="team-popover thumbnail" data-toggle="popover" data-placement="top" data-content="Zach is a student at Northwestern University interested in economic development and global health. Outside of his role in Community Currency, Zach manages student-run businesses on campus through Northwestern Student Holdings, and also allocates funds to student organizations as a member of the Associated Student Government. In his free time, Zach enjoys playing tennis and eating a nice steak.">
+          <img src="assets/zachhennenfent.png" alt="...">
+      </button>
       <div class="text">
           <strong>ZACH HENNENFENT</strong>
           <br>
           <i>Director, Finance</i>
         </div>
     </div>
+  </div>
 </div>
 
-
-</div>
-
+<!-- PARTNERS -->
 <div class="container" id="partners">
   <h2><strong>PARTNERS</strong></h2>
+</div>
+
+<!-- CONTACT -->
+<div class="container" id="contact">
+  <h2><strong>CONTACT</strong></h2>
+
+  <p>Contact us at contact@commcurrency.com.</p>
 </div>
 
 
