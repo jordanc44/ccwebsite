@@ -1,7 +1,7 @@
 body { 
 	padding-top: 10px; 
 	font-family: 'Roboto', sans-serif;
-	background-color: #99D2EF;
+	background-color: #77C4ED;
 
     left: 0;
     right: 0;
@@ -11,6 +11,14 @@ body {
 
 a {
 	color: white;
+}
+
+h2 {
+	color: #262262;
+}
+
+h1 {
+	color: #262262;
 }
 
 .donate {
@@ -28,8 +36,12 @@ a {
 	background-color: white;
 }
 
+.carousel {
+	margin-top: -20px;
+}
+
 .comm-nav {
-	background-color: #3E5A89;
+	background-color: #3750A2;
 	color: white;
 	/*padding: 10px;*/
 }
@@ -41,7 +53,6 @@ a {
 
 .comm-text {
 	font-size: 200%;
-	margin: 50px;
 }
 
 .team-photo {
@@ -51,6 +62,8 @@ a {
     margin: auto;
     margin-top: -20px;
 }
+
+
 .thumbnail {
 	opacity: 1;
 }
@@ -64,6 +77,11 @@ a {
 
 .collapse:true .text{
 	opacity: 0;
+}
+
+.tagline {
+	margin-left: 20px;
+	margin-bottom: -100px;
 }
 
 .text {
