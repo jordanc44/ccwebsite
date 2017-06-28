@@ -15,7 +15,7 @@ a {
 
 
 
-h1, h2 {
+h1, h2, h3 {
 	font-family: 'Bookman Old Style', sans-serif;
 	color: #262262;
 }
@@ -29,6 +29,11 @@ h1, h2 {
 	padding-right: 50px;
 }
 
+.images {
+	width: 100%;
+	height: auto;
+}
+
 .page-header {
 	padding-bottom: 130px;
 	padding-top: 30px;
@@ -37,6 +42,12 @@ h1, h2 {
 
 .carousel {
 	margin-top: -20px;
+}
+
+.container {
+	background-color: white;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 .comm-nav {
@@ -51,7 +62,7 @@ h1, h2 {
 }
 
 .comm-text {
-	font-size: 200%;
+	font-size: 150%;
 }
 
 .thumbnail {
@@ -67,6 +78,11 @@ h1, h2 {
 
 .collapse:true .text{
 	opacity: 0;
+}
+
+.subtitles {
+	padding-left: 5%;
+	padding-bottom: 10px;
 }
 
 .tagline {
@@ -88,4 +104,10 @@ h1, h2 {
   	transform: translate(-50%, -50%);
   	-ms-transform: translate(-50%, -50%);
   	opacity: 0;
+}
+
+#mc-logo, #ga-logo, #wi-logo, #an-logo {
+	width: 20%;
+	height: auto;
+	padding-left: 10px;
 }
