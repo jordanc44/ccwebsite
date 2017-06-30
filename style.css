@@ -1,7 +1,7 @@
 body { 
 	padding-top: 10px; 
 	font-family: 'Avenir', sans-serif;
-	background-color: #77C4ED;
+	background-color: white;
 
     left: 0;
     right: 0;
@@ -45,7 +45,7 @@ h1, h2, h3 {
 }
 
 .container {
-	background-color: white;
+	/*background-color: white;*/
 	padding-right: 10px;
 	padding-left: 10px;
 }
@@ -57,12 +57,20 @@ h1, h2, h3 {
 }
 
 .comm-items {
-	margin-right: 100px;
-	margin-left: 100px;
+	/*margin-left: 10%;*/
 }
 
 .comm-text {
 	font-size: 150%;
+}
+
+.dark {
+	background-color: lightgrey;
+}
+
+.logo {
+	width: 30px;
+	height: auto;
 }
 
 .thumbnail {
