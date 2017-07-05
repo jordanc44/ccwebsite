@@ -1,5 +1,5 @@
 body { 
-	padding-top: 10px; 
+	/*padding-top: 10px; */
 	font-family: 'Avenir', sans-serif;
 	background-color: white;
 
@@ -17,12 +17,12 @@ a {
 
 h1, h2, h3 {
 	font-family: 'Bookman Old Style', sans-serif;
-	color: #262262;
+	/*color: #262262;*/
 }
 
 .donate {
 	float: right;
-	margin-right: 100px;
+	margin-right: 50px;
 	margin-top: 30px;
 	padding: 10px;
 	padding-left: 50px;
@@ -35,13 +35,17 @@ h1, h2, h3 {
 }
 
 .page-header {
-	padding-bottom: 130px;
+	padding-bottom: 80px;
 	padding-top: 30px;
 	background-color: white;
 }
 
 .carousel {
 	margin-top: -20px;
+}
+
+#contact {
+	padding-top: 5%;
 }
 
 .container {
@@ -68,6 +72,12 @@ h1, h2, h3 {
 	background-color: lightgrey;
 }
 
+.very-dark {
+	padding-top: 5%;
+	padding-bottom: 2%;
+	background-color: #262262 
+}
+
 .logo {
 	width: 30px;
 	height: auto;
@@ -86,6 +96,12 @@ h1, h2, h3 {
 
 .collapse:true .text{
 	opacity: 0;
+}
+
+.process-imgs {
+	width: 50%;
+	height: auto;
+	border: 2px;
 }
 
 .subtitles {
@@ -115,7 +131,7 @@ h1, h2, h3 {
 }
 
 #mc-logo, #ga-logo, #wi-logo, #an-logo {
-	width: 20%;
+	width: 15%;
 	height: auto;
-	padding-left: 10px;
+	padding-left: 3%;
 }
