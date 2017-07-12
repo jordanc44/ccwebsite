@@ -44,7 +44,7 @@
 <div class="container page-header">
 
    <div class="row tagline">
-      <h1>Get Involved</h1>
+      <h2><strong>GET INVOLVED</strong></h2>
 
    </div>
 
@@ -69,7 +69,22 @@
   <div class="container" id="contact">
   <h2><strong>CONTACT</strong></h2>
 
-  <p class="comm-text">Contact us at contact@commcurrency.com.</p>
+  <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label for="name">Your name:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+  </div>
+  <div class="row">
+    <label for="email">Your email:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+  </div>
+  <div class="row">
+    <label for="message">Your message:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+  </div>
+  <br>
+  <input id="submit_button" type="submit" value="Send email" />
+</form>           
   </div>
 </div>
 
