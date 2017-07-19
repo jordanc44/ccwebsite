@@ -17,11 +17,15 @@ a {
 
 h1, h2, h3, h5 {
 	font-family: 'Bookman Old Style', sans-serif;
-	/*color: #262262;*/
+	text-align: center;
+	/*color: #1e1e1e;*/
+}
+
+.donate-top {
+	float: right;
 }
 
 .donate {
-	float: right;
 	margin-right: 30px;
 	margin-top: 30px;
 	padding: 10px;
@@ -44,12 +48,28 @@ h1, h2, h3, h5 {
 	margin-top: -20px;
 }
 
+.circle {
+	border-radius: 60%;
+	color: white;
+	width: 55%;
+	height: 47%;
+	border-color: white;
+	background-color: #E58F65;
+	padding-top: 50px;
+	
+}
+
+.mail {
+	background-color: #A0CA92;
+	margin-left: 240px;
+}
+
 #contact {
 	padding-top: 5%;
 }
 
 #contact_form {
-	background-color: #3750A2;
+	background-color: #262262;
 	padding-left: 30px;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -64,11 +84,8 @@ h1, h2, h3, h5 {
 }
 
 .center {
-	margin: auto;
-	display: block;
-	padding-left: 35%;
 	padding-bottom: 10px;
-	padding-top: 10px;
+	/*padding-top: 10px;*/
 }
 
 .container {
@@ -78,7 +95,7 @@ h1, h2, h3, h5 {
 }
 
 .comm-nav {
-	background-color: #3750A2;
+	background-color: #262262;
 	color: white;
 	font-weight: bold;
 }
@@ -89,6 +106,7 @@ h1, h2, h3, h5 {
 
 .comm-text {
 	font-size: 150%;
+	text-align: center;
 }
 
 .dark {
@@ -98,13 +116,17 @@ h1, h2, h3, h5 {
 .half {
 	background-color: #262262;
 	color: white;
-	padding-bottom: 155px;
+	padding-bottom: 70px;
 }
 
 .very-dark {
 	padding-top: 5%;
 	padding-bottom: 2%;
 	background-color: #262262 
+}
+
+#inline {
+	display: inline;
 }
 
 .logo {
@@ -118,7 +140,8 @@ h1, h2, h3, h5 {
 
 .thumbnail {
 	opacity: 1;
-	border-color: #3750A2;
+	border-color: white;
+
 }
 .evan:hover .thumbnail{
 	opacity: 0.2;
